@@ -11,7 +11,7 @@ const Results = ({ results }) => {
       const totalInterest =
         yearRow.valueEndOfYear - yearRow.annualInvestment * yearRow.year - initialInvestment;
       return (
-        <tr key={yearRow.year}>
+        <tr key={yearRow.year} className="center">
           <td>{yearRow.year}</td>
           <td>{formatter.format(yearRow.interest)}</td>
           <td>{formatter.format(yearRow.valueEndOfYear)}</td>
