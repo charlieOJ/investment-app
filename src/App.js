@@ -38,11 +38,11 @@ function App() {
   };
 
   return (
-    <body>
+    <div>
       <Header />
       <Form inputValues={inputValues} onChangeValue={onChangeValue} />
       <Results results={results} />
-    </body>
+    </div>
   );
 }
 
