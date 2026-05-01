@@ -20,10 +20,10 @@ function App() {
   };
 
   return (
-    <body>
+    <div>
       <Header />
       <Form inputValues={inputValues} onChangeValue={onChangeValue} />
-    </body>
+    </div>
   );
 }
 
